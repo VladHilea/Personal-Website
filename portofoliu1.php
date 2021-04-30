@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
+  <?php include_once("analyticstracking.php") ?>   
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600" rel="stylesheet">
+</head>
+<body>
+<?php include "header.php" ?>
+
+<section class="bg-parallax-1 height-full">
+            <section class="height-full opacity-black-portofolio">
+                <div class="container display-table">
+                    <div class="row valign-middle ">                      
+                        <div class="col-sm-12 color-white text-center">
+                            <p class="title-1"><strong>Fan Page</strong></p>
+                            <h3 class="pb-20">Site de prezentare . One Page . Mobile Responsive . Web Design .</h3>
+                            <a target="_blank" href='http://www.vlad-hilea.com/colo-page' class="  btn btn-default">Vezi Site-ul</a>
+                           
+                        </div> 
+                    </div> 
+                </div>
+            </section>
+</section>
+<section class="pb pt">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-sm-2">
+				<h2>Despre <strong>Client</strong></h2>
+				<hr class=" hr-8">
+
+			</div>
+			<div class="col-sm-10 text-left  pl">
+			<h2>Descriere :</h2>
+			<h4><strong>!!! ACESTA ESTE UN PROIECT PERSONAL, FARA NICIO UTILIZARE IN SCOP COMERCIAL !!!</strong></h4>
+				<h4>Aceasta este un site de prezentare facut pentru a oferi un FanArt unui youtuber roman. Este un site web <a style="color: #77DA55;" href="webdesign.php#one-page">One Page</a>.  Site-ul este realizat in totalitate pentru prezentare. Acest website nu a fost folosit in mod comercial. Acesta a reprezentat doar un proiect personal pentru portofoliul meu.</h4>
+			</div>
+		</div>
+	</div>
+</section>
+<section  class="pb">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 pt"><img class="img-responsive img-portofolio" src="images/colo-top.png"></div>
+			<div class="col-sm-4 pt"><img class="img-responsive img-portofolio" src="images/colo-program.png"></div>
+			<div class="col-sm-4 pt"><img class="img-responsive img-portofolio" src="images/colo-social.png"></div>
+		
+		</div>
+	</div>
+</section>
+<section class="pt pb">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2 text-center">
+				<h2>Despre <strong>Proiect</strong></h2>
+				<hr class="hr-9">
+			</div>
+			<div class="col-sm-10 text-left  pl">
+			<h2>Descriere :</h2>
+				<h4>Pentru realizarea acestui site am folosit cele mai noi tehnologii si standarde ale Web Design-ului global: HTML 5, CSS 3, JQuery, PHP, Bootstrap si Font Awesome. Acest site este Mobile Responsive. Am folosit Bootstrap si Media Query pentru a putea fi folosit atat pe dektop cat si pe un dispozitiv mobil cu usurinta.
+				JQuery a fost folosit pentru a crea un scroll smooth (linear) catre sectiunile din pagina.</h4>
+				<h2>Probleme intampinate si rezolvate :</h2>
+				<h4>- Poza de pe background-ul de la prima sectiune era prea mare pentru a putea fi utilizat pe un dispozitiv mobil.</h4>
+				<h4>- Scrisul de la sectiunea "Program Canal" nu era vizibil pe background-ul ales. Pentru a fi rezolvat am adaugat o sectiune neagra cu opacitatea scazuta. astfel incat luminozitatea imaginii sa fie mai scazuta.</h4>
+
+			</div>
+		</div>
+	</div>
+</section>
+<section id="project" class=" pb pt">
+
+  <div class="container">
+    <div class="row text-center wow bounceInUp">
+      <div class="col-sm-12">
+        <h1 class="pb-20 " style="font-size: 40px;"><strong>Sa Incepem Proiectul de Astazi</strong></h1>
+        <h3 class="pb">Va voi ajuta sa dati viata ideilor dumneavoastra</h3>
+        <a href='contact.php' class="  btn btn-default" id="button-1">Incepe Acum</a>
+      </div>
+    </div>
+  </div>
+</section>
+<?php include "footer.php" ?>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/counterup.min.js"></script>
+ <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+<script src="js/owl.carousel.js"></script>
+<script>  
+jQuery(window).scroll(function() {
+    if (jQuery(".navbar").offset().top > 50) {
+        jQuery(".navbar-fixed-top").addClass("nav-collapsed");
+
+        } 
+    else
+        {
+        jQuery(".navbar-fixed-top").removeClass("nav-collapsed");
+
+        }
+});
+</script>
+<script>
+var width = $(window).width();
+if (width > 768) {jQuery(window).scroll(function() {
+    if (jQuery(".navbar").offset().top > 50) {
+        jQuery(".navbar-fixed-top").addClass("nav-collapsed");
+
+        } 
+    else
+        {
+        jQuery(".navbar-fixed-top").removeClass("nav-collapsed");
+
+        }
+});
+}
+ else{
+ 	 jQuery(".navbar-fixed-top").addClass("nav-collapsed");
+ }
+
+
+ 
+    $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
+    $('.navbar-toggle:visible').click();
+});
+
+     jQuery('.page-scroll').bind('click', function(e) {
+            e.preventDefault();
+            jQuery('html,body').animate({scrollTop: jQuery(this.hash).offset().top - 50});                                                         
+               });
+       $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 1250) {  
+       
+        $("#goto").removeClass("dn");
+    }
+    else{
+ $("#goto").addClass("dn");
+    }
+}); 
+</script>
+<script>
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>
+
+<script>
+ $("#carousel").owlCarousel({ // id-ul carouselului, daca avem mai multe schimbam id-ul
+      autoPlay: 9000, //Set AutoPlay to 9 seconds
+      items : 1,
+      itemsDesktop : [1199,1],
+      itemsDesktopSmall : [979,1],
+      itemsTablet :[768,1],
+      itemsTabletSmall:[600,1],
+      itemsMobile : [479,1],
+      stopOnHover : false
+  });
+</script>
+<script>  
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 200) {
+    
+        
+         $("#nav").addClass("navbar-fixed-top");
+         
+        
+    }
+    else{
+      
+        $("#nav").removeClass("navbar-fixed-top");
+         
+    }
+}); 
+
+
+
+</script>
+
+</body>
+</html>
